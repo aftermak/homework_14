@@ -1,0 +1,58 @@
+
+* {
+   box-sizing: content-box; 
+}
+
+.container {
+    width: 1000px;
+    margin: 0 auto;
+}
+
+.slider {
+    display: flex;
+    justify-content: center;
+}
+
+.slider-item {
+    display: none;
+    justify-content: center;
+    align-items: center;
+    width: 1000px;
+    height: 500px;
+    background-color: #5D6D7E;
+}
+
+.active {
+    display: flex;
+}
+
+.slider-name {
+    color: white;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 50px;
+    padding-right: 10px;
+}
+
+.slider-description {
+    color: white;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 50px;
+    padding-right: 10px;
+}
+
+.slider-title {
+    color: white;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 50px;
+}
+
+.slider-number {
+    color: white;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 50px;
+}
+
+
+
+
+
